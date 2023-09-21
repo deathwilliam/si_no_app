@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
     child: MaterialApp(
       title: 'Si No App',
       debugShowCheckedModeBanner:false ,
-      theme: AppTheme( selectedColor: ) .theme(),
+      theme: AppTheme( selectedColor:2 ).theme(),
        home: const ChatScreen(),
     
     ),
